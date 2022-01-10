@@ -1,24 +1,24 @@
-/* Sizing, margin and padding */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     height: 100%;
     margin: 0;
-    padding: 0;
-   
+    padding: 0; 
 }
 
 /* Background image for the wrapper */
 .wrapper {
-    background-color: #353847;
-    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    background-color: #f5f5f5;
+    background-image: url(http://www.transparenttextures.com/patterns/asfalt-dark.png);
 
 }
-
-
-/* Color of row #1, w/ border*/
 header {
     background-color: white;
     border-bottom: 1px solid #4AAAA5;
-    
 }
 
 /* Background color for h1 tag, aligns text to center, added padding */
@@ -33,13 +33,6 @@ h1 {
     margin-right: 10px;
 }
 
-.col-md-7 {
-   clear: both;
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    margin-left: 50px;
-}
 
 /* Footer:color, background color,sizing, text alignment and border */ 
 footer {
@@ -51,39 +44,51 @@ footer {
     border-top: 5px solid #4AAAA5;
 }
 
+/* Footer:color, background color,sizing, text alignment and border */ 
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-/*social media link padding, sizing and text styles*/
-.fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
+/* adds style to the About Me element */ 
 
-  /*linkedin colors*/
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
+.info {
+    justify-content: space-around;
+    margin: 10px;
+    padding: 20px;
+    border: 10px;
+    border-style: solid;
+    border-color: darkgray;
+}
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
+.contact {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
 
-  #resume {
-      background-color: white;
-      color: black;
-  }
+/* Provides a section for my projects and seperates them to be able to place them therein the future */ 
+.main-sample {
+    flex: 2 1 100%;
+    min-height: 10vh;
+}
+
+.secondary-sample {
+    flex: 0 1 46.5%;
+    min-height: 10vh;
+}
+
+.bottom-links {
+    display: block;
+    margin: 20px;
+}
+
+/*sizing and text styles*/
 
   @media screen and (max-width: 980px) {
     .navbar-nav {
         float: left;
         margin: 0 auto;
-
-    }
-    footer {
-        height: 115px;
-        padding: 20px;
     }
