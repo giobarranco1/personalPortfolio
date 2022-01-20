@@ -39,18 +39,3 @@
   ul {
     list-style: none;
   }
-
-#test-site-loc {
-  background-image: url("../../covid19-holder.png");
-}
-
-.main-sample a {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.main-sample {
-  width: 50vh;
-  height: 50vh;
-}

@@ -92,3 +92,8 @@ footer {
         float: left;
         margin: 0 auto;
     }
+}
+
+#test-site-loc img {
+    width: 25%;
+}
