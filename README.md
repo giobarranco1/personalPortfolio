@@ -8,6 +8,3 @@
 ## Technologies Used
 
 * HTML and CSS were used to built this website
-
-
-![](port-img.png)

@@ -28,11 +28,19 @@ h1 {
     padding:10px;
     color: white;
 }
+h3{
+    justify-content: space-around;
+    /* text-align: center; */
+}
 #me {
     float:left;
     margin-right: 10px;
 }
 
+.nav > li a{
+    display: block;
+    text-align: center;
+}
 
 /* Footer:color, background color,sizing, text alignment and border */ 
 footer {
@@ -69,14 +77,20 @@ footer {
     margin: 10px;
 }
 
+.samples{
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 1%;
+}
 /* Provides a section for my projects and seperates them to be able to place them therein the future */ 
 .main-sample {
     flex: 2 1 100%;
     min-height: 10vh;
+    margin-left: 40%;
 }
 
 .secondary-sample {
-    flex: 0 1 46.5%;
+    flex: 0 1 33%;
     min-height: 10vh;
 }
 
@@ -95,5 +109,6 @@ footer {
 }
 
 #test-site-loc img {
-    width: 25%;
+    min-width: 50%;
 }
+
